@@ -1,0 +1,84 @@
+Color Scheme:
+
+Original Colors (derive rest from darker/lighter shades):
+
+Dark Slate Grey
+#3b5249
+
+Russian Grey
+#519872
+
+Pale Cerulean
+#93BEDF
+
+Egyptian Blue
+#0E34A0
+
+Black Coffee
+#34252F
+
+Additional Shades:
+
+Green Blue Crayola 
+
+#438DC7
+
+Xiketic
+(text)
+#181016
+
+
+Headers
+Poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+Body
+Lato
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+</style>
+
+font-family: 'Lato', sans-serif;
+
+Icons
+https://www.iconfinder.com/iconsets/social-media-logos-glyph
+
+Chef cooking:
+Photo by Vaibhav Jadhav from Pexels
+https://www.pexels.com/photo/man-preparing-dough-for-bread-3218467/
+
+Pho
+Photo by Nguyen Phuong NGUYEN from Pexels
+https://www.pexels.com/photo/cooked-food-in-white-ceramic-bowl-3663347/
+
+
+Chicken and rice
+Photo by Rajesh TP from Pexels
+https://www.pexels.com/photo/plate-of-rice-and-cooked-meat-1624487/
+
+Ramen
+Photo by Buenosia Carol from Pexels
+https://www.pexels.com/photo/cooked-ramen-1907244/
+
+Feast
+Photo by fauxels from Pexels
+https://www.pexels.com/photo/group-of-people-eating-together-3184195/
+
+Yoga
+Photo by Alexy Almond from Pexels
+https://www.pexels.com/photo/photo-of-woman-standing-with-one-leg-3758056/
+
+Weightlifting
+Photo by Victor Freitas from Pexels
+https://www.pexels.com/photo/person-holding-black-barbell-703014/
+
+Coffee
+Photo by Ylanite Koppens from Pexels
+https://www.pexels.com/photo/white-ceramic-teacup-with-saucer-796612/
+
+Lots of Coffee
+Photo by Burst from Pexels
+https://www.pexels.com/photo/beans-beverage-black-coffee-breakfast-373888/
+
+

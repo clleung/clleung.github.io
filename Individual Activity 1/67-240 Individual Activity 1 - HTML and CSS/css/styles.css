@@ -1,0 +1,659 @@
+/* ------------------------------------------------------
+  Stylesheet Guide
+  Follows the CSS Template with Alterations
+  ------------------------------------------------------
+
+  
+    1. Global
+        1.1. Fonts
+            1.1.1. Header font - XXX
+            1.1.2. Text font - XXX
+        1.2. General styles
+        1.3. Color scheme
+            1.3.1. Blue (#4aa8fa) - Color scheme
+            1.3.2. Pink (#fa5a88) - Color scheme
+            1.3.3. Green (#2ddf7b) - Color scheme
+        1.4. Typography
+        1.5. Custom class
+        1.6. Icons class
+    2. Header
+        2.1. Header text
+    3. Sections
+        3.1 Section header
+        3.2. Main Index section
+            3.2.1. Center-mid-1 
+            3.2.2. Center-mid-2 
+            3.2.3  Center-mid-3
+        3.3. About section
+            3.3.1. About - top
+            3.3.2. About - mid
+            3.3.3. About - bot
+        3.4. Explore section
+            3.4.1. Intro section
+            3.4.2. Table section
+        3.5. Contacts section
+            3.5.1. Contact details
+            3.5.2. Contact form
+        3.6. Schedule section
+            3.5.1. Schedule - quote
+            3.5.2. Schedule - text
+    4. Footer
+    5. Lists
+    6. Tables
+    7. Forms
+    8. Media queries
+
+------------------------------------------------------ */
+
+/* ------------------------------------------------------
+    1. Global
+------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        1.1. Fonts
+    ------------------------------------------------------ */
+
+        /* ------------------------------------------------------
+            1.1.1. Header font - Open Sans 400px Regular +  Open Sans 700px Bold
+        ------------------------------------------------------ */
+			
+            /* https://css-tricks.com/snippets/css/using-font-face/ */
+            /*
+            Different Methods of Using Google Fonts
+            Open Sans 400 px Regular - sans serif
+            @font-face {
+                font-family: "Open Sans";
+                font-weight: normal;
+                font-style: normal;
+                src: url("../fonts/Open-Sans/OpenSans-Regular.eot");
+                src: url("../fonts/Open-Sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Open-Sans/OpenSans-Regular.woff") format("woff"), url("../fonts/Open-Sans/OpenSans-Regular.ttf") format("truetype");
+            }
+            /*Open Sans 700 px Bold - sans serif
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+            */
+            
+            /*Lato - sans serif*/
+            @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+            
+		/* ------------------------------------------------------
+            1.1.2. Text font - XXX
+        ------------------------------------------------------ */
+            /*Poppins - sans serif*/
+            /*monolinear, low x-height, connects well with the geometric components of Lato
+            but has more modern components to Lato's classical forms*/
+            @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+    /* ------------------------------------------------------
+        1.2. General styles
+    ------------------------------------------------------ */
+    #page {
+        background-color: #B0D0E8;
+        margin: 10px auto 10px auto;
+        min-width: 720px;
+        max-width: 940px;
+        vertical-align: baseline;
+    }
+    body {
+        background-color: #2A628D;
+        color: #34252F;
+        font-family:  'Lato', sans-serif;
+        font-size: 110%;
+        text-align: left;
+    }
+    
+    .center-text {
+        text-align: center;
+    }
+
+    p {
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 0px;
+        text-align: left;
+    }
+ 
+    /* ------------------------------------------------------
+        1.3. Color scheme
+    ------------------------------------------------------ */
+
+        /* ------------------------------------------------------
+            1.3.1. Blue (#4aa8fa) - Color scheme
+        ------------------------------------------------------ */
+
+        /* ------------------------------------------------------
+            1.3.2. Pink (#fa5a88) - Color scheme
+        ------------------------------------------------------ */
+
+        /* ------------------------------------------------------
+            1.3.2. Green (#) - Color scheme
+        ------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        1.4. Typography
+    ------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        1.5. Custom Class
+    ------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        1.6. Icons Class
+    ------------------------------------------------------ */
+
+/* ------------------------------------------------------
+    2. Header
+------------------------------------------------------ */
+ /* ------------------------------------------------------
+        2.1. Header Text
+    ------------------------------------------------------ */
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    h1.center-text {
+        font-size: 300%;
+        text-align: center;
+    }
+    h2.center-text {
+        font-size: 200%;
+    }
+
+/* ------------------------------------------------------
+    3. Sections
+------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        3.1. Section Header
+    ------------------------------------------------------ */
+    /* ------------------------------------------------------
+            3.1.1. Nav Section
+    ------------------------------------------------------ */
+         }/*resolves the menu-holder being covered by the main photo*/
+         .menu-holder {
+            background-color: #ffffff;
+            float: right;
+            height: 100%;
+            max-width: 100%;
+            overflow: auto;
+            position: fixed;
+            right: -100%;
+            text-align: center;
+            top: 0;
+            transition: right .3s ease;
+            width: 100%;
+            z-index: 99;
+        }
+        nav {
+            padding-bottom: 20px;
+            padding-top: 20px;
+            text-align: right;
+        }
+        .current {
+            background-color: #0A235C;
+            color: #B0D0E8;
+            padding: 5px 8px;
+        }
+
+    /* ------------------------------------------------------
+        3.2. Main Index Section
+    ------------------------------------------------------ */
+        
+		/* ------------------------------------------------------
+           3.2.1 Center-mid-1
+        ------------------------------------------------------ */
+        .center-mid-1{
+            background-color: #B0D4BF;
+            padding-bottom: 15px;
+            padding-top: 5px;
+            width: 940px;
+        }
+
+        /* ------------------------------------------------------
+           3.2.2 Center-mid-2
+        ------------------------------------------------------ */
+        .center-mid-2{
+            width: 940px;
+            background-color: #89A99D;
+            padding-bottom: 15px;
+            padding-top: 5px;
+        }
+        
+        /* ------------------------------------------------------
+           3.2.3 Center-mid-3
+        ------------------------------------------------------ */
+        .center-mid-3{
+            background-color: #dee1e5;
+            padding-bottom: 15px;
+            padding-top: 5px;
+            width: 940px;
+        }
+
+    /* ------------------------------------------------------
+        3.3. About Section
+    ------------------------------------------------------ */
+        
+		/* ------------------------------------------------------
+           3.3.1 About - top
+        ------------------------------------------------------ */
+        /* ------------------------------------------------------
+           3.3.2 About - mid
+        ------------------------------------------------------ */
+
+         /* ------------------------------------------------------
+           3.3.2 About - bot
+        ------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        3.4. Explore Section
+    ------------------------------------------------------ */
+        
+		/* ------------------------------------------------------
+           3.2.1 Intro Section
+        ------------------------------------------------------ */
+        .center-2{
+            
+            margin: auto;
+            padding-bottom: 15px;
+            padding-top: 5px;
+            width: 940px;
+        }
+    /* ------------------------------------------------------
+        3.5. Contact Section
+    ------------------------------------------------------ */
+    /*Altered Sidebar Styling from: https://www.w3schools.com/w3css/4/w3.css
+        Example:  https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_sidebar_content*/
+        .w3-sidebar {
+            background-color: #ECF1FD;
+            height: 1100px;
+            margin-top: 20px;
+            overflow: auto;
+            padding: 10px;
+            /*changed to absolute*/
+            position: absolute; 
+            /*changed width from 200px to percent*/
+            width: 10%;
+            z-index: 1;
+        }
+        
+        .page-title > h1 {
+            background-color: #AE84A4;
+            margin: 0px;
+            padding: 30px;
+        }
+        
+		/* ------------------------------------------------------
+           3.5.1 Contact Details
+        ------------------------------------------------------ */
+            address {
+                margin-left: 8px;
+                margin-right: 8px;
+                margin-top: 0px;
+            }
+            .socialmedia {
+                margin-left: 8px;
+                margin-right: 8px;
+                margin-top: 0px;
+            }
+        
+        /* ------------------------------------------------------
+           3.5.2 Contact Form
+        ------------------------------------------------------ */
+            .push-right {
+                margin-left: 22%;
+                margin-top: 20px;
+            }
+            #contact-mid-1 {
+                background-color:#0E34A0;
+                height: 1100px;
+                margin-bottom: 20px;
+                margin-left: 10px;
+                padding: 10px;
+            }
+            .center-3{
+                margin: 0 0;
+                width: 300px;
+            }
+/* ------------------------------------------------------
+        3.6. Schedule Section
+    ------------------------------------------------------ */
+        
+		/* ------------------------------------------------------
+           3.6.1 Schedule - quote
+        ------------------------------------------------------ */
+        #invisible {
+            font-weight: 900;
+            quotes: "" "" ;
+        }
+        [id ~= "big-quote"] {
+            background-image: url("../img/pexels-fauxels-3184195.jpg");
+            background-repeat: None;
+            background-size: 940px 500px;
+            height: 400px;
+            margin: 0px;
+            padding: 20px;
+            width: 900px;
+        }
+        #james-beard {
+            background-color: rgb(160, 197, 228, 0.7);
+            font-size: 300%;
+            margin: 75px 40px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* ------------------------------------------------------
+           3.6.1 Schedule - text
+        ------------------------------------------------------ */
+        
+/* ------------------------------------------------------
+    4. Footer
+------------------------------------------------------ */
+    footer {
+        /*
+        center fix: 
+        centered text by applying the center-text class
+        */
+        margin-top: 20px;
+    }
+
+    [class ~= "f"] {
+        /*
+        text-align fix:
+        default left from body
+        */
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+/* ------------------------------------------------------
+    5. Lists
+------------------------------------------------------ */
+    li {
+        line-height: 1.6em;
+        list-style-image: url("images/icon-plus.png");
+    }
+    ol {
+        margin-left: 200px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+    }
+        
+    ul li {
+        display: inline;
+        padding: 10px;
+        
+    }
+        
+    ul li a, 
+    ul a:hover,
+    ul li a:focus, 
+    ul li a:active {
+        border: none;
+        color: inherit;
+        text-decoration: none;
+    }
+    ul li a:active {
+        color: #ECF1FD;
+    }
+    ul a:hover {
+        color: #ECF1FD;
+    }
+
+/* ------------------------------------------------------
+    6. Tables
+------------------------------------------------------ */
+    table {
+        border-spacing: 0px;}
+    th, td {
+        border-spacing: 0px;
+        font-size: 90%;
+        margin: 0px;
+        padding: 5px 30px 5px 10px;
+    }
+    th, td {
+        background-color:#71AAD6;
+        border-bottom: 1px solid #cbd2d8;
+        border-right: 1px solid #cbd2d8;
+        border-top: 1px solid #f1f8fe;
+        text-align: left;
+    }
+    tr.head th {
+        background-color: #B0D4BF;
+        border-bottom: 2px solid #547ca0;
+        border-right: 1px solid #749abe;
+        border-top: 1px solid #90b4d6;
+        color:  #ECF1FD;
+        letter-spacing: 0.15em;
+        text-align: center;
+        text-shadow: -1px -1px 1px #666666;
+    }
+    .tdlink {
+        color: #0E34A0;
+        text-decoration: none;
+    }
+    .tdlink:hover {
+        color:#ECF1FD
+    }
+    tr.even td, tr.even th {
+        background-color: #e8eff5;
+    }
+    tr.even td, tr.odd td {
+        text-decoration: none;
+    }
+    tr.head th:first-child {
+        /* WebKit is a browser engine used in Apple's Safari browser, Amazon 
+            Kindle e-book reader, BlackBerry Browser in OS 6 and above.
+
+            Not all CSS3 properties work well in all browsers. In a way to ensure that web pages display as expected in their browsers, vendors like Mozilla and Webkit developed their own browser-compatible properties. With CSS3, many compatibility issues are now resolved.
+            However, it is not unusual to still see these properties used in stylesheets. */
+        /*won't sort in case of*/
+        /* Webkit property*/
+        -webkit-border-top-left-radius: 5px;
+
+        /* Mozilla property*/
+        -moz-border-radius-topleft: 5px;
+
+        /* CSS3 property*/
+        border-top-left-radius: 5px;
+
+        /* More on border-radius property: https://www.the-art-of-web.com/css/border-radius/ */
+    }
+    tr.head th:last-child {
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-right-radius: 5px;}
+/* ------------------------------------------------------
+    6. Forms
+------------------------------------------------------ */
+    fieldset {
+        background-color: #EFE6ED;
+        border: 1px solid #EFE6ED;
+        height: 550px;
+        line-height: 1.6em;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 20px;
+        width: 310px;
+    }
+    /*fixed issue with spacing by putting the legend in h3*/
+    legend {
+        color: #34252F;
+        font-style: bold;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    input[type="text"] {
+        border: 1px solid #7DA194;
+        outline: none;
+        padding: 2px;
+        width: 200px;
+    }
+    input[type="text"]:focus,
+    input[type="text"]:hover {
+        background-color: #7DA194;
+        border: 1px solid #AF83A6;
+    }
+    input[type="submit"] {
+        background-color: #7DA194;
+        border: 1px solid #334740;
+        border-radius: 5px;
+        color: #111815;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    input[type="submit"]:hover {
+        background-color: #7DA194;
+        border: 1px solid #334740;
+        color: #111815;
+        cursor: pointer;
+    }
+    .title {
+        clear: left;
+        float: left;
+        width: 160px;
+    }
+    .submit {
+        text-align: right;
+        width: 310px;
+    }
+/* ------------------------------------------------------
+    8. Media Queries 
+------------------------------------------------------ */
+
+ /* ------------------------------------------------------
+        8.1. Image Queries
+    ------------------------------------------------------ */
+        .img-1 {
+            margin: auto;
+            width: 100%;
+        }
+        .img-2 {
+            height: 510px;
+            margin: auto;
+            width: 300px;
+            
+        }
+        .img-3 {
+            display: inline-block;
+            height: 300px;
+            margin: auto;
+            padding: 5px;
+            width: 425px;
+        }
+        
+        /*footer images*/
+        #icon {
+            display: block;
+            margin: 5px;
+        
+        }
+        .smlogo{
+            height: 21.3px;
+            margin: auto;
+            width: 17px;
+        }
+        .clogo {
+            height: 24px;
+            margin: auto;
+            width: 24px;
+        }
+        figure {
+            margin-top: 0px;
+        }
+        .fig-1 {
+            /*
+            wanted to make hero image align with dishes
+            */
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+        
+        .fig-2 {
+            /*display fix: 
+            makes it possible to align all the images inline
+            default display: block (stacked)
+            display inline makes them in-line wrt to the figcaption
+            */
+            display: inline-block;
+            margin: 0px;
+            /*margin fix:
+            takes out figure defaults:
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 40px;
+            margin-inline-end: 40px;
+            */
+            margin-bottom: 20px;
+            margin-top: 20px;
+            /*padding fix: 
+            can't do padding all around or the 
+            sum of the right will make it 10 px 
+            and provide unwanted whitespace
+            
+            specifically 8 so the whitespace on the right isn't 
+            noticeable*/
+            padding-left: 8px; 
+            text-align: center;
+        }
+        figcaption {
+            font-style: italic;
+            text-align: right; 
+        }
+       .figc-2 {
+           /*
+            width fix: 
+            takes care of overhang from figcaption
+            */
+            width: 300px;
+       }
+        
+/* ------------------------------------------------------
+        8.2. Video Queries
+    ------------------------------------------------------ */
+        video{
+            width: 940px;
+        }
+    
+/* ------------------------------------------------------
+    9. Attributes
+------------------------------------------------------ */
+/* ------------------------------------------------------
+        9.1. Classes
+    ------------------------------------------------------ */
+/* ------------------------------------------------------
+             9.1.1 General Classes
+    ------------------------------------------------------ */
+       
+/* ------------------------------------------------------
+            9.1.2 Section-Specific Classes
+------------------------------------------------------ */
+        .center-2{
+            margin: auto;
+            padding-bottom: 15px;
+            padding-top: 5px;
+            width: 940px;
+        }
+        .center-3{
+            margin: 0 0;
+            width: 300px;
+        }
+        .center-2>h1, .center-2>p{
+            text-align: center;
+        }
+        
+    /* ------------------------------------------------------
+             9.1.1 General Classes
+    ------------------------------------------------------ */
+    a :hover {
+        color: #ECF1FD;
+    }
+        
+/* ------------------------------------------------------
+        9.2. IDs
+    ------------------------------------------------------ */
+       
